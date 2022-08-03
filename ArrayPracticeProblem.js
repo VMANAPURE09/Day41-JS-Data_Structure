@@ -43,3 +43,8 @@ console.log("First smallest number is: " + firstSmallest);
 console.log("Second smallest number is: " + secondSmallest);
 console.log("Second largest number is: " + secondlargest);
 };
+
+console.log("\nUsing Array Sort Method");
+arrayOf3DigitRandomNumber.sort();
+console.log("Second Largest Number is : "+arrayOf3DigitRandomNumber[1]);
+console.log("Second Smallest Number is : "+arrayOf3DigitRandomNumber[8]);
